@@ -50,7 +50,9 @@
                 if(nb == board.children.length){
                     board.querySelectorAll(".box").forEach(function(box){
                         showReaction('success', box)
+                      setTimeout(() =>{window.location.reload()}, 1000)  
                 })
+                
                 }
                 nb++
             }
