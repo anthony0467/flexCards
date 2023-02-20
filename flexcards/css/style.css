@@ -19,3 +19,7 @@
     width: 300px;
     border-radius: 10px;
 }
+
+card-header{
+    height: 200px;
+}
